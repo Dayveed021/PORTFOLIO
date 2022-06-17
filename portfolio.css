@@ -1,0 +1,265 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav {
+  background-color: black;
+  color: white;
+  margin-top: -30px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+.nav .ulogo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 30px;
+  position: relative;
+  top: 13px;
+}
+
+.nav .ulogo .U {
+  color: blue;
+  font-weight: bolder;
+}
+
+.nav .ulogo .U a {
+  text-decoration: none;
+  color: blue;
+}
+
+.nav .ulogo .logo {
+  font-weight: bolder;
+}
+
+.nav .ulogo .logo a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav .menu {
+  margin-left: 50rem;
+  margin-top: -1.25rem;
+}
+
+.nav .menu ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  top: -0.9375rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.nav .menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.home {
+  background-color: #0e1871;
+  color: white;
+  position: relative;
+  height: 18.75rem;
+  margin-top: -1.875rem;
+}
+
+.home h3 {
+  position: relative;
+  top: 30%;
+  margin: 1.875rem;
+}
+
+.home .button {
+  margin: 1.875rem;
+  position: relative;
+  top: 30%;
+}
+
+.home .button a {
+  text-decoration: none;
+  color: black;
+}
+
+.home .button button {
+  height: 2.1875rem;
+  border-radius: 1.875rem;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  border-color: white;
+}
+
+.home .img1 {
+  width: 20%;
+}
+
+.home .img1 img {
+  width: 100%;
+  position: relative;
+  left: 56.25rem;
+  bottom: 5.625rem;
+}
+
+.title {
+  margin: 1.875rem;
+  -webkit-text-decoration: underline 0.4375;
+          text-decoration: underline 0.4375;
+}
+
+.imgtext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.imgtext .img {
+  width: 45%;
+  background-color: #0e1871;
+  border-radius: 1.875rem;
+  position: relative;
+  margin: 1.875rem;
+}
+
+.imgtext .img img {
+  width: 100%;
+  border-radius: 1.875rem;
+  position: relative;
+  bottom: 11px;
+  left: 13px;
+}
+
+.imgtext .text {
+  background-color: #0e1871;
+  width: 50%;
+  position: relative;
+  right: 13px;
+  border-radius: 30px;
+  color: white;
+  height: 300px;
+  top: 80px;
+}
+
+.imgtext .text p {
+  margin: 30px;
+  line-height: 1.875rem;
+}
+
+.imgtext .text p span {
+  -webkit-text-decoration: underline 7px white;
+          text-decoration: underline 7px white;
+}
+
+.projects {
+  background-color: #0e1871;
+  color: white;
+  height: 340px;
+}
+
+.projects .title2 {
+  margin: 30px;
+  -webkit-text-decoration: underline 7px white;
+          text-decoration: underline 7px white;
+  position: relative;
+  top: 10px;
+}
+
+.projects .imgicons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #0e1871;
+}
+
+.projects .imgicons .cvr {
+  margin: 30px;
+}
+
+.projects .imgicons .cvr .button button {
+  height: 35px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.projects .imgicons .cvr .button a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects .imgicons .portfolio {
+  margin: 30px;
+}
+
+.projects .imgicons .portfolio .button2 button {
+  height: 35px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.projects .imgicons .portfolio .button2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects .imgicons .letter {
+  margin: 30px;
+}
+
+.projects .imgicons .letter .button3 button {
+  height: 35px;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.references {
+  background-image: url(web.png);
+  height: 300px;
+}
+
+.references .title3 h4 {
+  color: black;
+  -webkit-text-decoration: underline 7px;
+          text-decoration: underline 7px;
+  position: relative;
+  top: 10px;
+  margin: 30px;
+}
+
+.references .icons {
+  position: relative;
+  margin: 30px;
+}
+
+.references .icons ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  position: relative;
+  top: 60px;
+}
+
+.references .icons ul .fa-twitter {
+  color: #1d9bf0;
+}
+
+.references .icons ul .fa-linkedin {
+  color: #0a66c2;
+}
+
+.references .icons ul .fa-facebook {
+  color: blue;
+}
+/*# sourceMappingURL=portfolio.css.map */

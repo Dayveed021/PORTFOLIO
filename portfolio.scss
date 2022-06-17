@@ -1,0 +1,264 @@
+body 
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav 
+{
+    background-color: black;
+    color: white;
+    margin-top: -30px;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    .ulogo
+    {
+        display: flex;
+        margin: 30px;
+        position: relative;
+        top: 13px;
+        .U
+        {
+            color: blue;
+            font-weight: bolder;
+            a 
+            {
+                text-decoration: none;
+                color: blue;
+            }
+        }
+        .logo
+        {
+            font-weight: bolder;
+            a 
+            {
+                text-decoration: none;
+                color: white;
+            }
+        } 
+    }
+    .menu 
+    {
+            margin-left: 50rem;
+            margin-top: -1.25rem;
+        ul 
+        {
+            list-style: none;
+            display: flex;
+            position: relative;
+            top: -0.9375rem;
+            justify-content: space-around;
+            li 
+            {
+                a 
+                {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+            
+        }
+    }
+}
+.home
+{
+    background-color: rgba(14, 24, 113, 1);
+    color: white;
+    position: relative;
+    height: 18.75rem;
+    margin-top: -1.875rem;
+    h3
+    {
+        position: relative;
+        top: 30%;
+        margin: 1.875rem;
+    }
+    .button 
+    {
+        margin: 1.875rem;
+        position: relative;
+        top: 30%;
+        a 
+        {
+            text-decoration: none;
+            color: black;
+        }
+        button 
+        {
+            height: 2.1875rem;
+            border-radius: 1.875rem;
+            background-color: white;
+            color:black;
+            font-weight: bold;
+            border-color: white;
+            
+
+        }
+    }
+    .img1 
+    {
+        width: 20%;
+        img 
+        {
+            width: 100%;
+            position: relative;
+            left: 56.25rem;
+            bottom: 5.625rem;
+        }
+    }
+}
+.title 
+{
+    margin: 1.875rem;
+    text-decoration: underline 0.4375;
+}
+.imgtext 
+{
+    display: flex;
+    justify-content: space-between;
+    .img 
+    {
+        width: 45%;
+        background-color: rgba(14, 24, 113, 1);
+        border-radius: 1.875rem;
+        position: relative;
+        margin: 1.875rem;
+        img 
+        {
+            width:100%;
+            border-radius: 1.875rem;
+            position: relative;
+            bottom: 11px;
+            left: 13px;
+        }
+    }
+    .text 
+        {
+            background-color: rgba(14, 24, 113, 1);
+            width: 50%;
+            position: relative;
+            right: 13px;
+            border-radius: 30px;
+            color: white;
+            height: 300px;
+            top: 80px;
+            p 
+            {
+                margin: 30px;
+                line-height: 1.875rem;
+                span 
+                {
+                    text-decoration: underline 7px white;
+                }
+            }
+
+        }
+}
+.projects 
+{
+    background-color: rgba(14, 24, 113, 1);
+    color: white;
+    height: 340px;
+    .title2 
+    {
+        margin: 30px;
+        text-decoration: underline 7px white;
+        position: relative;
+        top: 10px;
+    }
+    .imgicons 
+    {
+        display: flex;
+        justify-content: space-around;
+        background-color: rgba(14, 24, 113, 1);
+       .cvr 
+       {
+            margin: 30px;
+            .button 
+            {
+                button 
+                {
+                    height: 35px;
+                    border-radius: 30px;
+                    font-weight: bold;
+                }
+                a 
+                {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+       }
+       .portfolio 
+       {
+        margin: 30px;
+        .button2 
+            {
+                button 
+                {
+                    height: 35px;
+                    border-radius: 30px;
+                    font-weight: bold;
+                }
+                a 
+                {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+       }
+       .letter
+        {
+       .button3 
+            {
+                button 
+                {
+                    height: 35px;
+                    border-radius: 30px;
+                    font-weight: bold;
+                }
+            }
+        margin: 30px;
+       }
+    }   
+}
+.references 
+{
+    background-image: url(web.png);
+    height: 300px;
+    .title3 
+    {
+        h4 
+        {
+            color: black;
+            text-decoration: underline 7px ;
+            position: relative;
+            top: 10px;
+            margin: 30px;
+        }
+    }
+    .icons 
+    {
+        position: relative;
+        margin: 30px;
+        ul 
+        {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            top: 60px;
+            .fa-twitter 
+            {
+                color: rgb(29, 155, 240);
+            }
+            .fa-linkedin 
+            {
+                color: rgb(10, 102, 194);
+            }
+            .fa-facebook 
+            {
+                color: blue;
+            }
+        }
+    }
+}
